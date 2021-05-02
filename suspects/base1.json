@@ -1,13 +1,13 @@
 {
-    "name": "base1",
-    "path": "/project1/base1",
+    "name": "base2",
+    "path": "/project1/base2",
     "family": "COMP",
     "type": "baseCOMP",
     "dock_leader": null,
     "network_editor_info": {
         "position": [
             525,
-            -50
+            -150
         ],
         "size": [
             160,
@@ -1141,7 +1141,7 @@
     "children": [
         {
             "name": "null1",
-            "path": "/project1/base1/null1",
+            "path": "/project1/base2/null1",
             "family": "TOP",
             "type": "nullTOP",
             "dock_leader": null,
@@ -1862,7 +1862,7 @@
                     "name": "null",
                     "connections": [
                         {
-                            "target": "/project1/base1/constant1",
+                            "target": "/project1/base2/constant1",
                             "index": 0
                         }
                     ]
@@ -1880,7 +1880,7 @@
         },
         {
             "name": "text1",
-            "path": "/project1/base1/text1",
+            "path": "/project1/base2/text1",
             "family": "DAT",
             "type": "textDAT",
             "dock_leader": null,
@@ -2378,7 +2378,7 @@
                         "default": [
                             ""
                         ],
-                        "enable": false,
+                        "enable": true,
                         "startSection": false,
                         "readOnly": false,
                         "enableExpr": null,
@@ -2484,7 +2484,7 @@
         },
         {
             "name": "text2",
-            "path": "/project1/base1/text2",
+            "path": "/project1/base2/text2",
             "family": "DAT",
             "type": "textDAT",
             "dock_leader": null,
@@ -3087,8 +3087,612 @@
             "children": null
         },
         {
+            "name": "text3",
+            "path": "/project1/base2/text3",
+            "family": "DAT",
+            "type": "textDAT",
+            "dock_leader": null,
+            "network_editor_info": {
+                "position": [
+                    150,
+                    -275
+                ],
+                "size": [
+                    130,
+                    90
+                ],
+                "comment": "",
+                "tags": [],
+                "user_color": [
+                    0.5450000166893005,
+                    0.5450000166893005,
+                    0.5450000166893005
+                ]
+            },
+            "parameter": {
+                "File": {
+                    "edit": {
+                        "name": "edit",
+                        "label": "Edit..",
+                        "page": "File",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "file": {
+                        "name": "file",
+                        "label": "File",
+                        "page": "File",
+                        "style": "File",
+                        "size": 1,
+                        "default": [
+                            ""
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            "Scripts/This is a hot fix.py"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "defaultreadencoding": {
+                        "name": "defaultreadencoding",
+                        "label": "Default Read Encoding",
+                        "page": "File",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "autodetect"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "autodetect",
+                            "utf8",
+                            "utf16le",
+                            "utf16be",
+                            "cp1252"
+                        ],
+                        "menuLabels": [
+                            "Auto-Detect",
+                            "UTF8",
+                            "UTF16-LE",
+                            "UTF16-BE",
+                            "CP1252"
+                        ],
+                        "val": [
+                            "autodetect"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "syncfile": {
+                        "name": "syncfile",
+                        "label": "Sync to File",
+                        "page": "File",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "loadonstart": {
+                        "name": "loadonstart",
+                        "label": "Load on Start",
+                        "page": "File",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            true
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "loadonstartpulse": {
+                        "name": "loadonstartpulse",
+                        "label": "Load File",
+                        "page": "File",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "write": {
+                        "name": "write",
+                        "label": "Write on Toe Save",
+                        "page": "File",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            true
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "writepulse": {
+                        "name": "writepulse",
+                        "label": "Write File",
+                        "page": "File",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    }
+                },
+                "Common": {
+                    "language": {
+                        "name": "language",
+                        "label": "Language",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "input"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "input",
+                            "node"
+                        ],
+                        "menuLabels": [
+                            "Input",
+                            "Node"
+                        ],
+                        "val": [
+                            "input"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "extension": {
+                        "name": "extension",
+                        "label": "Edit/View Extension",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "languageext"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "csv",
+                            "dat",
+                            "frag",
+                            "glsl",
+                            "html",
+                            "md",
+                            "py",
+                            "rtf",
+                            "tsv",
+                            "txt",
+                            "vert",
+                            "xml",
+                            "languageext",
+                            "customext"
+                        ],
+                        "menuLabels": [
+                            "csv",
+                            "dat",
+                            "frag",
+                            "glsl",
+                            "html",
+                            "md",
+                            "py",
+                            "rtf",
+                            "tsv",
+                            "txt",
+                            "vert",
+                            "xml",
+                            "From Language",
+                            "Custom Extension"
+                        ],
+                        "val": [
+                            "languageext"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "customext": {
+                        "name": "customext",
+                        "label": "Custom Extension",
+                        "page": "Common",
+                        "style": "Str",
+                        "size": 1,
+                        "default": [
+                            ""
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            ""
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "wordwrap": {
+                        "name": "wordwrap",
+                        "label": "Word Wrap",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "input"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "input",
+                            "on",
+                            "off"
+                        ],
+                        "menuLabels": [
+                            "Input",
+                            "On",
+                            "Off"
+                        ],
+                        "val": [
+                            "input"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    }
+                }
+            },
+            "custom_parameter": {},
+            "inputs": [
+                {
+                    "style": "DAT",
+                    "index": 0,
+                    "name": "null",
+                    "connections": []
+                }
+            ],
+            "outputs": [
+                {
+                    "style": "DAT",
+                    "index": 0,
+                    "name": "null",
+                    "connections": []
+                }
+            ],
+            "children": null
+        },
+        {
             "name": "vc_data",
-            "path": "/project1/base1/vc_data",
+            "path": "/project1/base2/vc_data",
             "family": "DAT",
             "type": "tableDAT",
             "dock_leader": null,
@@ -3849,7 +4453,7 @@
         },
         {
             "name": "constant1",
-            "path": "/project1/base1/constant1",
+            "path": "/project1/base2/constant1",
             "family": "TOP",
             "type": "constantTOP",
             "dock_leader": null,
@@ -4994,7 +5598,7 @@
                     "name": "null",
                     "connections": [
                         {
-                            "target": "/project1/base1/null1",
+                            "target": "/project1/base2/null1",
                             "index": 0
                         }
                     ]
