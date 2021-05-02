@@ -1,0 +1,2638 @@
+{
+    "name": "base1",
+    "path": "/project1/base1",
+    "family": "COMP",
+    "type": "baseCOMP",
+    "dock_leader": null,
+    "network_editor_info": {
+        "position": [
+            525,
+            -25
+        ],
+        "size": [
+            160,
+            130
+        ],
+        "comment": "",
+        "tags": [
+            "pi_suspect"
+        ],
+        "user_color": [
+            0.5450000166893005,
+            0.5450000166893005,
+            0.5450000166893005
+        ]
+    },
+    "parameter": {
+        "Base": {},
+        "Extensions": {
+            "extension1": {
+                "name": "extension1",
+                "label": "Extension Object 1",
+                "page": "Extensions",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "extname1": {
+                "name": "extname1",
+                "label": "Extension Name",
+                "page": "Extensions",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": false,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "promoteextension1": {
+                "name": "promoteextension1",
+                "label": "Promote Extension",
+                "page": "Extensions",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    false
+                ],
+                "enable": false,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    false
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "reinitextensions": {
+                "name": "reinitextensions",
+                "label": "Re-Init Extensions",
+                "page": "Extensions",
+                "style": "Pulse",
+                "size": 1,
+                "default": [
+                    false
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    0
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            }
+        },
+        "Common": {
+            "parentshortcut": {
+                "name": "parentshortcut",
+                "label": "Parent Shortcut",
+                "page": "Common",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "opshortcut": {
+                "name": "opshortcut",
+                "label": "Global OP Shortcut",
+                "page": "Common",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "iopshortcut1": {
+                "name": "iopshortcut1",
+                "label": "Internal OP Shortcut 1",
+                "page": "Common",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "iop1": {
+                "name": "iop1",
+                "label": "Internal OP",
+                "page": "Common",
+                "style": "OP",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "opviewer": {
+                "name": "opviewer",
+                "label": "Operator Viewer",
+                "page": "Common",
+                "style": "OP",
+                "size": 1,
+                "default": [
+                    "./out1"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    "./out1"
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "enablecloning": {
+                "name": "enablecloning",
+                "label": "Enable Cloning",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    true
+                ],
+                "enable": true,
+                "startSection": true,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    true
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "enablecloningpulse": {
+                "name": "enablecloningpulse",
+                "label": "Enable Cloning Pulse",
+                "page": "Common",
+                "style": "Pulse",
+                "size": 1,
+                "default": [
+                    false
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    0
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "clone": {
+                "name": "clone",
+                "label": "Clone Master",
+                "page": "Common",
+                "style": "COMP",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "loadondemand": {
+                "name": "loadondemand",
+                "label": "Load on Demand",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    false
+                ],
+                "enable": true,
+                "startSection": true,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    false
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "externaltox": {
+                "name": "externaltox",
+                "label": "External .tox",
+                "page": "Common",
+                "style": "File",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    "suspects/base1.tox"
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "reloadtoxonstart": {
+                "name": "reloadtoxonstart",
+                "label": "Reload .tox on Start",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    true
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    true
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "reloadcustom": {
+                "name": "reloadcustom",
+                "label": "Reload Custom Parameters",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    true
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    false
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "reloadbuiltin": {
+                "name": "reloadbuiltin",
+                "label": "Reload Built-In Parameters",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    true
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    false
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "savebackup": {
+                "name": "savebackup",
+                "label": "Save Backup of External",
+                "page": "Common",
+                "style": "Toggle",
+                "size": 1,
+                "default": [
+                    true
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    true
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "subcompname": {
+                "name": "subcompname",
+                "label": "Sub-Component to Load",
+                "page": "Common",
+                "style": "Str",
+                "size": 1,
+                "default": [
+                    ""
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "reinitnet": {
+                "name": "reinitnet",
+                "label": "Re-Init Network",
+                "page": "Common",
+                "style": "Pulse",
+                "size": 1,
+                "default": [
+                    false
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": false,
+                "enableExpr": null,
+                "val": [
+                    0
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "CONSTANT"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    10.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            }
+        }
+    },
+    "custom_parameter": {
+        "Version Ctrl": {
+            "Vcname": {
+                "name": "Vcname",
+                "label": "Name",
+                "page": "Version Ctrl",
+                "style": "Str",
+                "default": [
+                    "None"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "Vcauthor": {
+                "name": "Vcauthor",
+                "label": "Author",
+                "page": "Version Ctrl",
+                "style": "Str",
+                "default": [
+                    "None"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "Vcversion": {
+                "name": "Vcversion",
+                "label": "Version",
+                "page": "Version Ctrl",
+                "style": "Int",
+                "size": 1,
+                "default": [
+                    0
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ],
+                "val": [
+                    0
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ]
+            },
+            "Vcbuild": {
+                "name": "Vcbuild",
+                "label": "Build",
+                "page": "Version Ctrl",
+                "style": "Int",
+                "size": 1,
+                "default": [
+                    0
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ],
+                "val": [
+                    0
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ]
+            },
+            "Vcsavetimestamp": {
+                "name": "Vcsavetimestamp",
+                "label": "Save Timestamp",
+                "page": "Version Ctrl",
+                "style": "Str",
+                "default": [
+                    "None"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "Vcsaveorigin": {
+                "name": "Vcsaveorigin",
+                "label": "Save Origin",
+                "page": "Version Ctrl",
+                "style": "Str",
+                "default": [
+                    "None"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "val": [
+                    ""
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            },
+            "Vcsaveversion": {
+                "name": "Vcsaveversion",
+                "label": "Save Version",
+                "page": "Version Ctrl",
+                "style": "Str",
+                "default": [
+                    "0.0"
+                ],
+                "enable": true,
+                "startSection": false,
+                "readOnly": true,
+                "enableExpr": null,
+                "val": [
+                    "0.0"
+                ],
+                "expr": [
+                    null
+                ],
+                "mode": [
+                    "BIND"
+                ],
+                "min": [
+                    0.0
+                ],
+                "max": [
+                    1.0
+                ],
+                "normMin": [
+                    0.0
+                ],
+                "normMax": [
+                    1.0
+                ],
+                "clampMin": [
+                    false
+                ],
+                "clampMax": [
+                    false
+                ]
+            }
+        }
+    },
+    "inputs": [],
+    "outputs": [],
+    "children": [
+        {
+            "name": "null1",
+            "path": "/project1/base1/null1",
+            "family": "TOP",
+            "type": "nullTOP",
+            "dock_leader": null,
+            "network_editor_info": {
+                "position": [
+                    350,
+                    25
+                ],
+                "size": [
+                    130,
+                    105
+                ],
+                "comment": "",
+                "tags": [],
+                "user_color": [
+                    0.5450000166893005,
+                    0.5450000166893005,
+                    0.5450000166893005
+                ]
+            },
+            "parameter": {
+                "Null": {},
+                "Common": {
+                    "outputresolution": {
+                        "name": "outputresolution",
+                        "label": "Output Resolution",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "useinput"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "useinput",
+                            "eighth",
+                            "quarter",
+                            "half",
+                            "2x",
+                            "4x",
+                            "8x",
+                            "fit",
+                            "limit",
+                            "custom",
+                            "parpanel"
+                        ],
+                        "menuLabels": [
+                            "Use Input",
+                            "Eighth",
+                            "Quarter",
+                            "Half",
+                            "2X",
+                            "4X",
+                            "8X",
+                            "Fit Resolution",
+                            "Limit Resolution",
+                            "Custom Resolution",
+                            "Parent Panel Size"
+                        ],
+                        "val": [
+                            "useinput"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "resolution": {
+                        "name": "resolution",
+                        "label": "Resolution",
+                        "page": "Common",
+                        "style": "Int",
+                        "size": 2,
+                        "default": [
+                            256,
+                            256
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "min": [
+                            1.0,
+                            1.0
+                        ],
+                        "max": [
+                            1.0,
+                            1.0
+                        ],
+                        "normMin": [
+                            1.0,
+                            1.0
+                        ],
+                        "normMax": [
+                            2048.0,
+                            2048.0
+                        ],
+                        "clampMin": [
+                            true,
+                            true
+                        ],
+                        "clampMax": [
+                            false,
+                            false
+                        ],
+                        "val": [
+                            256,
+                            256
+                        ],
+                        "expr": [
+                            null,
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT",
+                            "CONSTANT"
+                        ]
+                    },
+                    "resmenu": {
+                        "name": "resmenu",
+                        "label": "Resolution Menu",
+                        "page": "Common",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            true
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            9
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "resmult": {
+                        "name": "resmult",
+                        "label": "Use Global Res Multiplier",
+                        "page": "Common",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            true
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            true
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "outputaspect": {
+                        "name": "outputaspect",
+                        "label": "Output Aspect",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "useinput"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "useinput",
+                            "resolution",
+                            "custom"
+                        ],
+                        "menuLabels": [
+                            "Use Input",
+                            "Resolution",
+                            "Custom Aspect"
+                        ],
+                        "val": [
+                            "useinput"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "aspect": {
+                        "name": "aspect",
+                        "label": "Aspect",
+                        "page": "Common",
+                        "style": "Float",
+                        "size": 2,
+                        "default": [
+                            1.0,
+                            1.0
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "min": [
+                            0.0,
+                            0.0
+                        ],
+                        "max": [
+                            1.0,
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0,
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0,
+                            1.0
+                        ],
+                        "clampMin": [
+                            false,
+                            false
+                        ],
+                        "clampMax": [
+                            false,
+                            false
+                        ],
+                        "val": [
+                            1.0,
+                            1.0
+                        ],
+                        "expr": [
+                            null,
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT",
+                            "CONSTANT"
+                        ]
+                    },
+                    "armenu": {
+                        "name": "armenu",
+                        "label": "Aspect Menu",
+                        "page": "Common",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "inputfiltertype": {
+                        "name": "inputfiltertype",
+                        "label": "Input Smoothness",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "linear"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "nearest",
+                            "linear",
+                            "mipmap"
+                        ],
+                        "menuLabels": [
+                            "Nearest Pixel",
+                            "Interpolate Pixels",
+                            "Mipmap Pixels"
+                        ],
+                        "val": [
+                            "linear"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "fillmode": {
+                        "name": "fillmode",
+                        "label": "Fill Viewer",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "best"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "useinput",
+                            "fill",
+                            "width",
+                            "height",
+                            "best",
+                            "outside",
+                            "nativeres"
+                        ],
+                        "menuLabels": [
+                            "Use Input",
+                            "Fill",
+                            "Fit Horizontal",
+                            "Fit Vertical",
+                            "Fit Best",
+                            "Fit Outside",
+                            "Native Resolution"
+                        ],
+                        "val": [
+                            "best"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "filtertype": {
+                        "name": "filtertype",
+                        "label": "Viewer Smoothness",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "linear"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "nearest",
+                            "linear",
+                            "mipmap"
+                        ],
+                        "menuLabels": [
+                            "Nearest Pixel",
+                            "Interpolate Pixels",
+                            "Mipmap Pixels"
+                        ],
+                        "val": [
+                            "linear"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "npasses": {
+                        "name": "npasses",
+                        "label": "Passes",
+                        "page": "Common",
+                        "style": "Int",
+                        "size": 1,
+                        "default": [
+                            1
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ],
+                        "val": [
+                            1
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ]
+                    },
+                    "chanmask": {
+                        "name": "chanmask",
+                        "label": "Channel Mask",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "15"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": null,
+                        "menuLabels": null,
+                        "val": [
+                            "15"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "format": {
+                        "name": "format",
+                        "label": "Pixel Format",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "useinput"
+                        ],
+                        "enable": false,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "useinput",
+                            "rgba8fixed",
+                            "srgba8fixed",
+                            "rgba16float",
+                            "rgba32float",
+                            "_separator_",
+                            "rgb10a2fixed",
+                            "rgba16fixed",
+                            "rgba11float",
+                            "rgb16float",
+                            "rgb32float",
+                            "mono8fixed",
+                            "mono16fixed",
+                            "mono16float",
+                            "mono32float",
+                            "rg8fixed",
+                            "rg16fixed",
+                            "rg16float",
+                            "rg32float",
+                            "a8fixed",
+                            "a16fixed",
+                            "a16float",
+                            "a32float",
+                            "monoalpha8fixed",
+                            "monoalpha16fixed",
+                            "monoalpha16float",
+                            "monoalpha32float"
+                        ],
+                        "menuLabels": [
+                            "Use Input",
+                            "8-bit fixed (RGBA)",
+                            "sRGB 8-bit fixed (RGBA)",
+                            "16-bit float (RGBA)",
+                            "32-bit float (RGBA)",
+                            "_separator_",
+                            "10-bit RGB, 2-bit Alpha, fixed (RGBA)",
+                            "16-bit fixed (RGBA)",
+                            "11-bit float (RGB), Positive Values Only",
+                            "16-bit float (RGB)",
+                            "32-bit float (RGB)",
+                            "8-bit fixed (Mono)",
+                            "16-bit fixed (Mono)",
+                            "16-bit float (Mono)",
+                            "32-bit float (Mono)",
+                            "8-bit fixed (RG)",
+                            "16-bit fixed (RG)",
+                            "16-bit float (RG)",
+                            "32-bit float (RG)",
+                            "8-bit fixed (A)",
+                            "16-bit fixed (A)",
+                            "16-bit float (A)",
+                            "32-bit float (A)",
+                            "8-bit fixed (Mono+Alpha)",
+                            "16-bit fixed (Mono+Alpha)",
+                            "16-bit float (Mono+Alpha)",
+                            "32-bit float (Mono+Alpha)"
+                        ],
+                        "val": [
+                            "useinput"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    }
+                }
+            },
+            "custom_parameter": {},
+            "inputs": [
+                {
+                    "style": "TOP",
+                    "index": 0,
+                    "name": "null",
+                    "connections": []
+                }
+            ],
+            "outputs": [
+                {
+                    "style": "TOP",
+                    "index": 0,
+                    "name": "null",
+                    "connections": []
+                }
+            ],
+            "children": null
+        },
+        {
+            "name": "vc_data",
+            "path": "/project1/base1/vc_data",
+            "family": "DAT",
+            "type": "tableDAT",
+            "dock_leader": null,
+            "network_editor_info": {
+                "position": [
+                    50,
+                    25
+                ],
+                "size": [
+                    130,
+                    90
+                ],
+                "comment": "",
+                "tags": [],
+                "user_color": [
+                    0.5450000166893005,
+                    0.5450000166893005,
+                    0.5450000166893005
+                ]
+            },
+            "parameter": {
+                "Table": {
+                    "edit": {
+                        "name": "edit",
+                        "label": "Edit..",
+                        "page": "Table",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "file": {
+                        "name": "file",
+                        "label": "File",
+                        "page": "Table",
+                        "style": "File",
+                        "size": 1,
+                        "default": [
+                            ""
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            ""
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "syncfile": {
+                        "name": "syncfile",
+                        "label": "Sync to File",
+                        "page": "Table",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "defaultreadencoding": {
+                        "name": "defaultreadencoding",
+                        "label": "Default Read Encoding",
+                        "page": "Table",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "autodetect"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "autodetect",
+                            "utf8",
+                            "utf16le",
+                            "utf16be",
+                            "cp1252"
+                        ],
+                        "menuLabels": [
+                            "Auto-Detect",
+                            "UTF8",
+                            "UTF16-LE",
+                            "UTF16-BE",
+                            "CP1252"
+                        ],
+                        "val": [
+                            "autodetect"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "loadonstart": {
+                        "name": "loadonstart",
+                        "label": "Load on Start",
+                        "page": "Table",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "loadonstartpulse": {
+                        "name": "loadonstartpulse",
+                        "label": "Load File",
+                        "page": "Table",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "write": {
+                        "name": "write",
+                        "label": "Write on Toe Save",
+                        "page": "Table",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "writepulse": {
+                        "name": "writepulse",
+                        "label": "Write File",
+                        "page": "Table",
+                        "style": "Pulse",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            0
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "removeblank": {
+                        "name": "removeblank",
+                        "label": "Remove Blank Lines",
+                        "page": "Table",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "dims": {
+                        "name": "dims",
+                        "label": "Exact Dimensions",
+                        "page": "Table",
+                        "style": "Toggle",
+                        "size": 1,
+                        "default": [
+                            false
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            false
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "rows": {
+                        "name": "rows",
+                        "label": "Rows",
+                        "page": "Table",
+                        "style": "Int",
+                        "size": 1,
+                        "default": [
+                            3
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            100.0
+                        ],
+                        "clampMin": [
+                            true
+                        ],
+                        "clampMax": [
+                            false
+                        ],
+                        "val": [
+                            7
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ]
+                    },
+                    "cols": {
+                        "name": "cols",
+                        "label": "Columns",
+                        "page": "Table",
+                        "style": "Int",
+                        "size": 1,
+                        "default": [
+                            4
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            100.0
+                        ],
+                        "clampMin": [
+                            true
+                        ],
+                        "clampMax": [
+                            false
+                        ],
+                        "val": [
+                            2
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ]
+                    }
+                },
+                "Common": {
+                    "language": {
+                        "name": "language",
+                        "label": "Language",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "input"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "input",
+                            "node"
+                        ],
+                        "menuLabels": [
+                            "Input",
+                            "Node"
+                        ],
+                        "val": [
+                            "input"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "extension": {
+                        "name": "extension",
+                        "label": "Edit/View Extension",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "languageext"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "csv",
+                            "dat",
+                            "frag",
+                            "glsl",
+                            "html",
+                            "md",
+                            "py",
+                            "rtf",
+                            "tsv",
+                            "txt",
+                            "vert",
+                            "xml",
+                            "languageext",
+                            "customext"
+                        ],
+                        "menuLabels": [
+                            "csv",
+                            "dat",
+                            "frag",
+                            "glsl",
+                            "html",
+                            "md",
+                            "py",
+                            "rtf",
+                            "tsv",
+                            "txt",
+                            "vert",
+                            "xml",
+                            "From Language",
+                            "Custom Extension"
+                        ],
+                        "val": [
+                            "languageext"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "customext": {
+                        "name": "customext",
+                        "label": "Custom Extension",
+                        "page": "Common",
+                        "style": "Str",
+                        "size": 1,
+                        "default": [
+                            ""
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "val": [
+                            ""
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            1.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    },
+                    "wordwrap": {
+                        "name": "wordwrap",
+                        "label": "Word Wrap",
+                        "page": "Common",
+                        "style": "Menu",
+                        "size": 1,
+                        "default": [
+                            "input"
+                        ],
+                        "enable": true,
+                        "startSection": false,
+                        "readOnly": false,
+                        "enableExpr": null,
+                        "menuNames": [
+                            "input",
+                            "on",
+                            "off"
+                        ],
+                        "menuLabels": [
+                            "Input",
+                            "On",
+                            "Off"
+                        ],
+                        "val": [
+                            "input"
+                        ],
+                        "expr": [
+                            null
+                        ],
+                        "mode": [
+                            "CONSTANT"
+                        ],
+                        "min": [
+                            0.0
+                        ],
+                        "max": [
+                            1.0
+                        ],
+                        "normMin": [
+                            0.0
+                        ],
+                        "normMax": [
+                            10.0
+                        ],
+                        "clampMin": [
+                            false
+                        ],
+                        "clampMax": [
+                            false
+                        ]
+                    }
+                }
+            },
+            "custom_parameter": {},
+            "inputs": [],
+            "outputs": [
+                {
+                    "style": "DAT",
+                    "index": 0,
+                    "name": "null",
+                    "connections": []
+                }
+            ],
+            "children": null
+        }
+    ]
+}
